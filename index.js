@@ -1,11 +1,9 @@
 import express from 'express';
 import routes from './src/apiRoute/apiRoute.js';
-//import playerRoute from './src/apiRoute/playerRoute.js';
 import mongoose from 'mongoose';
 import bodyParser from  'body-parser';
 
-//const express = require('express') ;
-//const routes = require('./route/route') ;
+
 
 
 const app = express();
